@@ -1,0 +1,21 @@
+{
+  "name": "project-toc-component",
+  "version": "0.1.0",
+  "description": "A sticky project table of contents with hover tooltips, image previews, active section tracking, and optional sound effects.",
+  "type": "module",
+  "main": "src/project-toc.js",
+  "style": "src/project-toc.css",
+  "scripts": {
+    "start": "python3 -m http.server 4174",
+    "check": "node --check src/project-toc.js"
+  },
+  "keywords": [
+    "toc",
+    "portfolio",
+    "tooltip",
+    "navigation",
+    "vanilla-js"
+  ],
+  "author": "Batuhan Karasakal",
+  "license": "MIT"
+}
